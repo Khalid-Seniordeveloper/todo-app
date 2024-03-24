@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Workbench&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+
+    background-color: #ff61c8;
+}
+html {
+    font-size: 62.5%;
+}
+.heading {
+    font-size: 5rem;
+    text-align: center;
+    margin-top: 4rem;
+    color: #3c8ee6;
+
+
+
+    font-family: "Workbench", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "BLED" 0,
+      "SCAN" 0;
+}
+.move {
+    display: flex;
+    justify-content: space-between;
+}
+#input {
+   
+
+    border: 0;
+    border-radius: 3rem;
+    padding: 1.2rem 2rem;
+    width: 60rem;
+    display: flex;
+    align-content: center;
+}
+.input-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  padding: 10rem 30rem;  
+}
+.btn-1 {
+    padding: 1rem;
+    border: 0;
+    border-radius: 3rem;
+    color: #3c8ee6;
+    transition: .3s;
+}
+.btn-1:hover {
+    background-color: #3c8ee6;
+    color: #ff61c8;
+    cursor: pointer;
+}
+
+.btn-2 {
+    padding: 1rem;
+    border: 0;
+    border-radius: 3rem;
+    color: #3c8ee6;
+    transition: .3s;
+}
+.work {
+    color: #521ac4;
+    font-size: 2rem;
+    font-family: "Workbench", sans-serif;
+    
+}
+.btn-2:hover {
+    background-color: #3c8ee6;
+    color: #ff61c8;
+    cursor: pointer;
+}
+#main-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 50rem;
+    align-items: center;
+}

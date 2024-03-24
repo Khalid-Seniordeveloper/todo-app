@@ -20,6 +20,8 @@ for (let i = 0; i < array.length; i++) {
    <h1>${array[i]}</h1>
   <button onClick= "todelete(${i})">delete</button>
   <button onClick ="edit(${i})">edit</button>
+  <button onClick = "time(${i})">SET TIME </button>
+
     </div>`;
 }
 
@@ -34,7 +36,8 @@ for (let i = 0; i < array.length; i++) {
     <div>
     <h1>${array[i]}</h1>
    <button onClick= "todelete(${i})">delete</button>
-   <button>edit</button>
+   <button onClick = "edit(${i})">edit</button>
+   <button onClick time(${i})>SET TIME </button>
      </div>`;
  }
  
@@ -49,7 +52,8 @@ for (let i = 0; i < array.length; i++) {
     <div>
     <h1>${array[i]}</h1>
    <button onClick= "todelete(${i})">delete</button>
-   <button>edit</button>
+   <button onClick = "edit(${i})">EDIT</button>
+   <button onClick time(${i})>SET TIME </button>
      </div>`;
  }
  
@@ -62,7 +66,27 @@ for (let i = 0; i < array.length; i++) {
 
 
 
+function time(){
 
+  let hour = +prompt('ENTER HOUR');
+  let minute = +prompt ('ENTER MINUTE')
+  let time = prompt('ENTER AM OR PM')
+div.innerHTML = ''
+for (let i = 0; i < array.length; i++) {
+  div.innerHTML +=  `
+  <div>
+  <h1>${array[i]}</h1>
+  <h1>${hour} : ${minute}  ${time} </h1>
+ <button onClick= "todelete(${i})">delete</button>
+ <button onClick = "edit(${i})">edit</button>
+ <button onClick time(${i})>SET TIME </button>
+
+   </div>`;
+}
+
+
+
+}
 
 
 
